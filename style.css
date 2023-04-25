@@ -36,7 +36,9 @@
     width: 500px;
 }
 
-.task {
+.add-section__task,
+.menu__label,
+.menu__input {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -167,12 +169,12 @@
 }
 
 /* Edit Task */
-.menu__input_hidden {
+.menu__input {
     display: none;
 }
 
 .menu__list_edit
-.menu__input_edit {
+.menu__input {
     display: inline-block;
     width: 224px;
 }
