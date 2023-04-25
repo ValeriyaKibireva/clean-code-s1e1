@@ -14,7 +14,7 @@
     <section class="add-section">
         <label class="add-section__title" for="new-task">Add Item</label>
         <div class="add-section__task-wrapper">
-            <input class="add-section__task task" id="new-task" type="text">
+            <input class="add-section__task" id="new-task" type="text">
             <button class="button">Add</button>
         </div>
     </section>
@@ -23,8 +23,8 @@
         <ul class="menu" id="incomplete-tasks">
             <li class="menu__list">
                 <input class="menu__list_checkbox" type="checkbox">
-                <label class="menu__label task">Pay Bills</label>
-                <input class="menu__input menu__input_hidden menu__input_edit task" type="text">
+                <label class="menu__label">Pay Bills</label>
+                <input class="menu__input" type="text">
                 <button class="button edit">Edit</button>
                 <button class="button delete">
                     <img class="image-delete" src="./remove.svg" alt="button image">
@@ -32,8 +32,8 @@
             </li>
             <li class="menu__list menu__list_edit">
                 <input class="menu__list_checkbox" type="checkbox">
-                <label class="menu__label task">Go Shopping</label>
-                <input class="menu__input menu__input_hidden menu__input_edit task" type="text" value="Go Shopping">
+                <label class="menu__label">Go Shopping</label>
+                <input class="menu__input" type="text" value="Go Shopping">
                 <button class="button edit">Save</button>
                 <button class="button delete">
                     <img class="image-delete" src="./remove.svg" alt="button image">
@@ -46,8 +46,8 @@
         <ul class="menu completed-tasks" id="completed-tasks">
             <li class="menu__list">
                 <input class="menu__list_checkbox" type="checkbox" checked>
-                <label class="menu__label task">See the Doctor</label>
-                <input class="menu__input menu__input_hidden menu__input_edit task" type="text">
+                <label class="menu__label">See the Doctor</label>
+                <input class="menu__input" type="text">
                 <button class="button edit">Edit</button>
                 <button class="button delete">
                     <img class="image-delete" src="./remove.svg" alt="button image">
